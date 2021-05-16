@@ -1,0 +1,61 @@
+    body{
+        background-image: url("../background.jpg");
+        background-color: #cccccc;
+    }
+  .text {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -110%);
+    color: #ff00dd;
+    max-width: 90%;
+    padding: 2em 3em;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 50px;
+  }
+  .tagline {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -110%);
+    color: #ff00dd;
+    max-width: 90%;
+    padding: 2em 3em;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2em;
+  }
+  .social {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -85%);
+    color: #ff00dd;
+    max-width: 90%;
+    padding: 2em 3em;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2em;
+    vertical-align: middle;
+  }
+  .social a{
+      color: #ff00dd;
+      transition: color 0.5s ease;
+      font-size: 25px;
+      margin-top: 2em;
+      margin-right: 25px;
+      margin-left: 25px;
+      vertical-align: middle;
+  }
+  .social a:hover {
+      color: White;
+  }
+  .text h1 {
+    font-size: 2.25em;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+  .tagline p{
+    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: -1px;	
+  }
+  
